@@ -793,7 +793,7 @@ section,
 }
 
 
-#hero .btn-explore {
+.btn-explore {
   background: var(--accent-color);
   color: var(--contrast-color);
   font-family: var(--heading-font);
@@ -808,19 +808,19 @@ section,
   justify-content: center;
 }
 
-#hero .btn-explore i {
+.btn-explore i {
   font-size: 18px;
   margin-left: 5px;
   line-height: 0;
   transition: 0.3s;
 }
 
-#hero .btn-explore:hover {
+ .btn-explore:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
   padding-right: 19px;
 }
 
-#hero .btn-explore:hover i {
+.btn-explore:hover i {
   margin-left: 10px;
 }
 
